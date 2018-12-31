@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
+        <link href="https://unpkg.com/ionicons@4.5.0/dist/css/ionicons.min.css" rel="stylesheet">
 
     <title>Todo Crud Application!</title>
     <style>
@@ -143,8 +144,8 @@
                                     <div class="col-md-4" id="${ids.todoID}">${todo.todo}</div>
                                     <div class="col-md-4"></div>
                                     <div class="col-md-4 text-right">
-                                        <button type="button" class="btn btn-primary" id="${ids.editID}">编辑</button>
-                                        <button type="button" class="btn btn-danger" id="${ids.deleteID}">删除</button>
+                                        <button type="button" class="btn btn-primary" id="${ids.editID}"><i class="icon ion-md-card"></i>&nbsp;&nbsp;编辑</button>
+                                        <button type="button" class="btn btn-danger" id="${ids.deleteID}"><i class="icon ion-md-trash"></i>&nbsp;&nbsp;删除</button>
                                     </div>
                             </div>    
                         </li>
